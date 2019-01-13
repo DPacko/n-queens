@@ -137,7 +137,6 @@
       for(var i = 0; i < rows.length; i++){
         var row = rows[i];
         for(var j = 0; j < row.length; j++){
-          console.log(storage);
           if(row[j] === 1){
             if(storage[j]){
               return true;
